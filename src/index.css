@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f0f0;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Hero Section */
+.hero h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero h2 {
+  font-weight: normal;
+  margin: 8px 0;
+}
+
+.hero p {
+  margin: 16px 0 0 0;
+  line-height: 1.5;
+}
+
+/* Skills Section */
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background: #ddd;
+  margin: 4px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* Projects Section */
+.project {
+  margin: 20px 0;
+  padding: 16px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.project h4 {
+  margin: 0 0 8px 0;
+}
+
+.project p {
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+.project span {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 8px;
+  text-decoration: none;
+  color: #0077cc;
+}
