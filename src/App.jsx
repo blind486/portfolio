@@ -37,7 +37,7 @@ export default function App() {
           <p>Coding my way to a better web, one line at a time.</p>
           <div className="hero-actions">
             <a href="#projects" className="btn primary">Featured Projects</a>
-            <a href="#projects" className="btn orange">Download Resume</a>
+            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn orange">Download Resume</a>
           </div>
         </div>
 
