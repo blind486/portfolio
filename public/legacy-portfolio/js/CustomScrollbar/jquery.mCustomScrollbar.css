@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+/* content block 1 */
+#mcs_container{position:relative; top:8px; margin:0; width:1000px; height:400px; padding:0 10px 10px 10px; background: rgba(0, 0, 0, 0.70);}
+#mcs_container .customScrollBox{position:relative; height:100%; overflow:hidden;}
+#mcs_container .customScrollBox .container{position:relative; width:970px; top:0; float:left;}
+#mcs_container .customScrollBox .content{clear:both;padding:0 0 1px 0}
+#mcs_container .customScrollBox .content p{padding:0 5px; margin:10px 0; color:#fff; font-family: Arial, Helvetica, sans-serif; font-size:11px; line-height:20px;text-shadow:#000 0 1px 0}
+#mcs_container .customScrollBox .content p.alt{padding:10px 5px; margin:10px 0; color:#fff;  font-family: Arial, Helvetica, sans-serif; font-size:17px; line-height:19px; color:#999;}
+#mcs_container .customScrollBox img{border:5px solid #fff;}
+#mcs_container .dragger_container{position:relative; width:2px; height:325px; float:left; margin:10px 0 0 10px; background:#000; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;}
+#mcs_container .dragger{position:absolute; width:2px; height:60px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs_container .dragger_pressed{position:absolute; width:4px; margin-left:-1px; height:60px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:s-resize;}
+#mcs_container .scrollUpBtn,#mcs_container .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; margin-right:12px; text-decoration:none; right:0; filter:alpha(opacity=20); -moz-opacity:0.20; -khtml-opacity:0.20; opacity:0.20;}
+#mcs_container .scrollUpBtn{top:16px; background:url(mcs_btnUp.png) center center no-repeat;}
+#mcs_container .scrollDownBtn{bottom:12px; background:url(mcs_btnDown.png) center center no-repeat;}
+#mcs_container .scrollUpBtn:hover,#mcs_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}
+
+
+
+
+/*#mcs5_container{position:relative; top:8px; margin:0; width:1150px; height:400px; padding:0 10px 10px 10px; background: rgba(0, 0, 0, 0.70);}
+#mcs5_container .customScrollBox{position:relative; width:550px; overflow:hidden;}
+#mcs5_container .customScrollBox .horWrapper{position:relative; left:0;}
+#mcs5_container .customScrollBox .container{position:relative; height:400px; top:0; float:left;}
+#mcs5_container .customScrollBox .content{clear:both;padding:0 0 1px 0}
+#mcs5_container .customScrollBox .content p{padding:0 5px; margin:10px 0; color:#fff; font-family: Arial, Helvetica, sans-serif; font-size:11px; line-height:20px;text-shadow:#000 0 1px 0}
+#mcs5_container .customScrollBox .content p.alt{padding:10px 5px; margin:10px 0; color:#fff;  font-family: Arial, Helvetica, sans-serif; font-size:17px; line-height:19px; color:#999;}
+#mcs5_container .customScrollBox img{border:5px solid #fff;}
+#mcs5_container .dragger_container{position:relative; width:2px; height:325px; float:left; margin:10px 0 0 10px; background:#000; cursor:pointer -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;}
+#mcs5_container .dragger{position:absolute; width:2px; height:60px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; cursor:pointer; -moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px;}
+#mcs5_container .dragger_pressed{position:absolute; width:4px; margin-left:-1px; height:60px; background:#999; text-align:center; line-height:60px; color:#666; overflow:hidden; -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; cursor:s-resize;}
+#mcs5_container .scrollUpBtn,#mcs5_container .scrollDownBtn{position:absolute; display:inline-block; width:14px; height:15px; margin-right:12px; text-decoration:none; right:0; filter:alpha(opacity=20); -moz-opacity:0.20; -khtml-opacity:0.20; opacity:0.20;}
+#mcs5_container .scrollUpBtn{top:16px; background:url(mcs_btnUp.png) center center no-repeat;}
+#mcs5_container .scrollDownBtn{bottom:12px; background:url(mcs_btnDown.png) center center no-repeat;}
+#mcs5_container .scrollUpBtn:hover,#mcs5_container .scrollDownBtn:hover{filter:alpha(opacity=60); -moz-opacity:0.60; -khtml-opacity:0.60; opacity:0.60;}*/
+
+
+#mcs5_container{position:absolute; left:0; top:200; margin:0; width:1100px; height:430px; padding:0 10px; /*border:1px dashed #C30;*/ -moz-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;}
+#mcs5_container .customScrollBox{position:relative; width:1100px; overflow:hidden;}
+#mcs5_container .customScrollBox .horWrapper{position:relative; left:0;}
+#mcs5_container .customScrollBox .container{position:relative; left:0;display:inline-block; *display:inline;}
+#mcs5_container .customScrollBox .content{clear:both;  height:350px;}
+#mcs5_container .customScrollBox .content p{padding:5px; margin:0 5px;}
+#mcs5_container .customScrollBox .content p img{margin-right:5px;}
+#mcs5_container .dragger_container{position:relative; height:0px; width:1080px; margin:10px; border-top:1px dashed #6f2c91;cursor:pointer;}
+#mcs5_container .dragger{position:absolute; width:60px; height:9px; background:#0c0f13 url(mcsDragger.png) no-repeat; margin-top:-5px;}
+#mcs5_container .dragger_pressed{position:absolute; width:60px; height:9px; background:#0c0f13 url(mcsDraggerHover.png) no-repeat; margin-top:-5px;}
+#mcs5_container .scrollUpBtn,#mcs5_container .scrollDownBtn{position:absolute; top:-45px; display:inline-block; font-family:Arial,Helvetica,sans-serif; font-size:large; font-weight:normal; color:#6f2c91; margin:8px 5px 0 10px; text-decoration:none;}
+#mcs5_container .scrollDownBtn{right:10px;}
+#mcs5_container .scrollUpBtn{right:50px;}
+#mcs5_container .scrollUpBtn:hover,#mcs5_container .scrollDownBtn:hover{color:#fff;}
+
+
+
+
+
+
+
+
+

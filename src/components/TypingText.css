@@ -1,0 +1,19 @@
+.typing-text {
+  display: inline-block;
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  white-space: normal;       /* allow wrapping on mobile */
+  overflow: hidden;          /* still hide extra chars during typing */
+  max-width: 100%;           /* never exceed parent width */
+}
+
+.cursor {
+  display: inline-block;
+  color: #00ff00;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
