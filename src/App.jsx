@@ -26,14 +26,14 @@ export default function App() {
           <TypingText 
           texts={[
             "Hi! I'm Porferio",
-            "Senior Front-End Dev",
+            "Front-End Developer",
             "UI/UX Designer",
             "Digital/Web Manager"
           ]}
           speed={100} // typing speed in ms per character
         />
 
-          <h2>Senior Front-End <em>Developer</em> • UI/UX Design • Digital/Web Manager</h2>
+          <h2>Front-End <em>Developer</em> • UI/UX Designer • Digital/Web Manager</h2>
           <p>Coding my way to a better web, one line at a time.</p>
           <div className="hero-actions">
             <a href="#projects" className="btn primary">Featured Projects</a>
