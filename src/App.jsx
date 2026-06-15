@@ -10,8 +10,11 @@ import TypingText from "./components/TypingText";
 import SkillsSection from "./components/SkillsSection";
 
 import { FaExternalLinkSquareAlt, FaReact, FaGithub, FaNpm, FaChrome, FaWordpress } from "react-icons/fa";
-import { SiVite } from "react-icons/si";
+import { SiVite, SiSitecore} from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
+import { FaDrupal } from "react-icons/fa";
+import { BiLogoAdobe } from "react-icons/bi";
+import { TbBrandAdobeIllustrator, TbBrandAdobePhotoshop } from "react-icons/tb";
 
 
 
@@ -68,13 +71,20 @@ export default function App() {
       <section>
         <h3>Tools & Workflow</h3>
         <div className="tools">
-          <div className="tool"><SiVite className="tool-icon" /><span>Vite</span></div>
+
+          <div className="tool"><FaWordpress className="tool-icon" /><span>Wordpress</span></div>
+          <div className="tool"><SiSitecore className="tool-icon" /><span>Sitecore</span></div>
+          <div className="tool"><FaDrupal className="tool-icon" /><span>Drupal</span></div>
           <div className="tool"><FaReact className="tool-icon" /><span>React</span></div>
+          <div className="tool"><SiVite className="tool-icon" /><span>Vite</span></div>
           <div className="tool"><FaGithub className="tool-icon" /><span>GitHub</span></div>
           <div className="tool"><FaNpm className="tool-icon" /><span>NPM</span></div>
           <div className="tool"><FaChrome className="tool-icon" /><span>DevTools</span></div>
-          <div className="tool"><FaWordpress className="tool-icon" /><span>Wordpress</span></div>
           <div className="tool"><VscVscode className="tool-icon" /><span>VS Code</span></div>
+          <div className="tool"><BiLogoAdobe className="tool-icon" /><span>Adobe</span></div>
+          <div className="tool"><TbBrandAdobeIllustrator className="tool-icon" /><span>Illustrator</span></div>
+          <div className="tool"><TbBrandAdobePhotoshop className="tool-icon" /><span>Photoshop</span></div>
+
         </div>
       </section>
 
